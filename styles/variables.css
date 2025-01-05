@@ -1,9 +1,11 @@
 :root {
---bg--color: #000028;
---text--color: #f1b2ce;
---accent--color: #ff0070;
---brand--color:#db00ff;
---bg--image: url(../images/cover-image-dark.png);
---main--font--family: 'IBM Plex mono';
---accent--text--color: #000028;
+    --bg--color: #000028;
+    --text--color: #f1b2ce;
+    --accent--color: #ff0070;
+    --brand--color:#db00ff;
+    --bg--image: url(../images/cover-image-dark.png);
+    --accent--text--color: #000028;
+    --decoration--color: #ff0070;
+    --translucent--color: #ff007066;
+    --rec--display: block;
 }
