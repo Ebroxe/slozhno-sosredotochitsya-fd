@@ -199,6 +199,10 @@
   margin-block-end: 20px;
 }
 
+h4 {
+  font-weight: 400;
+}
+
 .gallery-title {
   margin-block-end: 10px;
   font-size: inherit;
@@ -229,9 +233,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--brand--color, #db00ff);
   text-shadow: 2px 2px 0  var(--accent--color, #ff0070);
-  font-family: inherit;
   line-height: 0.8;
-  font-weight: 700;
 }
 
 @media (width >= 760px) {
@@ -325,6 +327,10 @@
   .footer {
     min-height: 1024px;
   }
+
+.footer-title {
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+}
 }
 
 @media (width >= 1024px) {
@@ -359,9 +365,5 @@
 
   .footer {
     min-height: 768px;
-  }
-
-  .footer-title {
-    font-size: 157px;
   }
 }
